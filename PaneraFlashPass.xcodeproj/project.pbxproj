@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD2C54F0273616A30002522E /* PaneraFlashPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C54EF273616A30002522E /* PaneraFlashPassApp.swift */; };
+		FD2C54F2273616A30002522E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C54F1273616A30002522E /* ContentView.swift */; };
+		FD2C54F4273616A40002522E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2C54F3273616A40002522E /* Assets.xcassets */; };
+		FD2C54F7273616A40002522E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2C54F6273616A40002522E /* Preview Assets.xcassets */; };
+		FD2C5501273616A40002522E /* PaneraFlashPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5500273616A40002522E /* PaneraFlashPassTests.swift */; };
+		FD2C550B273616A40002522E /* PaneraFlashPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */; };
+		FD2C550D273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD2C54FD273616A40002522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2C54E4273616A30002522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2C54EB273616A30002522E;
+			remoteInfo = PaneraFlashPass;
+		};
+		FD2C5507273616A40002522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2C54E4273616A30002522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2C54EB273616A30002522E;
+			remoteInfo = PaneraFlashPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD2C54EC273616A30002522E /* PaneraFlashPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaneraFlashPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2C54EF273616A30002522E /* PaneraFlashPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassApp.swift; sourceTree = "<group>"; };
+		FD2C54F1273616A30002522E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD2C54F3273616A40002522E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD2C54F6273616A40002522E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD2C54FC273616A40002522E /* PaneraFlashPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaneraFlashPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2C5500273616A40002522E /* PaneraFlashPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassTests.swift; sourceTree = "<group>"; };
+		FD2C5506273616A40002522E /* PaneraFlashPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaneraFlashPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITests.swift; sourceTree = "<group>"; };
+		FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2C54E9273616A30002522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C54F9273616A40002522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C5503273616A40002522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD2C54E3273616A30002522E = {
+			isa = PBXGroup;
+			children = (
+				FD2C54EE273616A30002522E /* PaneraFlashPass */,
+				FD2C54FF273616A40002522E /* PaneraFlashPassTests */,
+				FD2C5509273616A40002522E /* PaneraFlashPassUITests */,
+				FD2C54ED273616A30002522E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD2C54ED273616A30002522E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C54EC273616A30002522E /* PaneraFlashPass.app */,
+				FD2C54FC273616A40002522E /* PaneraFlashPassTests.xctest */,
+				FD2C5506273616A40002522E /* PaneraFlashPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD2C54EE273616A30002522E /* PaneraFlashPass */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C54EF273616A30002522E /* PaneraFlashPassApp.swift */,
+				FD2C54F1273616A30002522E /* ContentView.swift */,
+				FD2C54F3273616A40002522E /* Assets.xcassets */,
+				FD2C54F5273616A40002522E /* Preview Content */,
+			);
+			path = PaneraFlashPass;
+			sourceTree = "<group>";
+		};
+		FD2C54F5273616A40002522E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C54F6273616A40002522E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD2C54FF273616A40002522E /* PaneraFlashPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C5500273616A40002522E /* PaneraFlashPassTests.swift */,
+			);
+			path = PaneraFlashPassTests;
+			sourceTree = "<group>";
+		};
+		FD2C5509273616A40002522E /* PaneraFlashPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */,
+				FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */,
+			);
+			path = PaneraFlashPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2C54EB273616A30002522E /* PaneraFlashPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2C5510273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPass" */;
+			buildPhases = (
+				FD2C54E8273616A30002522E /* Sources */,
+				FD2C54E9273616A30002522E /* Frameworks */,
+				FD2C54EA273616A30002522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaneraFlashPass;
+			productName = PaneraFlashPass;
+			productReference = FD2C54EC273616A30002522E /* PaneraFlashPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD2C54FB273616A40002522E /* PaneraFlashPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2C5513273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPassTests" */;
+			buildPhases = (
+				FD2C54F8273616A40002522E /* Sources */,
+				FD2C54F9273616A40002522E /* Frameworks */,
+				FD2C54FA273616A40002522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2C54FE273616A40002522E /* PBXTargetDependency */,
+			);
+			name = PaneraFlashPassTests;
+			productName = PaneraFlashPassTests;
+			productReference = FD2C54FC273616A40002522E /* PaneraFlashPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD2C5505273616A40002522E /* PaneraFlashPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2C5516273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPassUITests" */;
+			buildPhases = (
+				FD2C5502273616A40002522E /* Sources */,
+				FD2C5503273616A40002522E /* Frameworks */,
+				FD2C5504273616A40002522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2C5508273616A40002522E /* PBXTargetDependency */,
+			);
+			name = PaneraFlashPassUITests;
+			productName = PaneraFlashPassUITests;
+			productReference = FD2C5506273616A40002522E /* PaneraFlashPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2C54E4273616A30002522E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FD2C54EB273616A30002522E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FD2C54FB273616A40002522E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FD2C54EB273616A30002522E;
+					};
+					FD2C5505273616A40002522E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FD2C54EB273616A30002522E;
+					};
+				};
+			};
+			buildConfigurationList = FD2C54E7273616A30002522E /* Build configuration list for PBXProject "PaneraFlashPass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2C54E3273616A30002522E;
+			productRefGroup = FD2C54ED273616A30002522E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2C54EB273616A30002522E /* PaneraFlashPass */,
+				FD2C54FB273616A40002522E /* PaneraFlashPassTests */,
+				FD2C5505273616A40002522E /* PaneraFlashPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2C54EA273616A30002522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2C54F7273616A40002522E /* Preview Assets.xcassets in Resources */,
+				FD2C54F4273616A40002522E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C54FA273616A40002522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C5504273616A40002522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2C54E8273616A30002522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2C54F2273616A30002522E /* ContentView.swift in Sources */,
+				FD2C54F0273616A30002522E /* PaneraFlashPassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C54F8273616A40002522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2C5501273616A40002522E /* PaneraFlashPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C5502273616A40002522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2C550B273616A40002522E /* PaneraFlashPassUITests.swift in Sources */,
+				FD2C550D273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD2C54FE273616A40002522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2C54EB273616A30002522E /* PaneraFlashPass */;
+			targetProxy = FD2C54FD273616A40002522E /* PBXContainerItemProxy */;
+		};
+		FD2C5508273616A40002522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2C54EB273616A30002522E /* PaneraFlashPass */;
+			targetProxy = FD2C5507273616A40002522E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD2C550E273616A40002522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD2C550F273616A40002522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD2C5511273616A40002522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaneraFlashPass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD2C5512273616A40002522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaneraFlashPass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD2C5514273616A40002522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaneraFlashPass.app/PaneraFlashPass";
+			};
+			name = Debug;
+		};
+		FD2C5515273616A40002522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaneraFlashPass.app/PaneraFlashPass";
+			};
+			name = Release;
+		};
+		FD2C5517273616A40002522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaneraFlashPass;
+			};
+			name = Debug;
+		};
+		FD2C5518273616A40002522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobwoods45.PaneraFlashPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaneraFlashPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2C54E7273616A30002522E /* Build configuration list for PBXProject "PaneraFlashPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2C550E273616A40002522E /* Debug */,
+				FD2C550F273616A40002522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2C5510273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2C5511273616A40002522E /* Debug */,
+				FD2C5512273616A40002522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2C5513273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2C5514273616A40002522E /* Debug */,
+				FD2C5515273616A40002522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2C5516273616A40002522E /* Build configuration list for PBXNativeTarget "PaneraFlashPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2C5517273616A40002522E /* Debug */,
+				FD2C5518273616A40002522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD2C54E4273616A30002522E /* Project object */;
+}
