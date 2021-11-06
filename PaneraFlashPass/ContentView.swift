@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     
-        let currentAccount = User(name: "Marcus", id: 12345, prefrences: [])
+        let currentAccount = User(name: "Marcus", id: 12345, boardPref:"Dark Mode", prefrences: [])
         TabView{
             MainView(user: currentAccount)
                 .tabItem{Text("Main Page")}
-            accountView()
+            accountManagement(ourUser: currentAccount)
                 .tabItem{Text("Welcome")}
         }
         .tabViewStyle(PageTabViewStyle())
@@ -23,13 +23,7 @@ struct ContentView: View {
     
     }
 }
-struct accountView:View{
-    var body: some View {
-        VStack{
-            Text("Welcome to account view")
-        }
-    }
-}
+
 struct MainView: View{
     var user: User
     var body: some View{

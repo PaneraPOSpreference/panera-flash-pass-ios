@@ -34,13 +34,17 @@ struct Welcome:View{
             
     }
 }
-struct accountManagement{
+struct accountManagement:View{
     var ourUser: User
     var body: some View{
         VStack{
             PaneraLogo()
             Text("Name: \(ourUser.name)")
-            Text("Name: \(ourUser.name)")
+                .font(Font.custom("roboto-medium", size: 20))
+            Text("ID: \(ourUser.id)")
+                .font(Font.custom("roboto-medium", size: 20))
+            Text("Board Preference: \(ourUser.boardPref)")
+                .font(Font.custom("roboto-medium", size: 20))
         }
     }
 }

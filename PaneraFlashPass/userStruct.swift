@@ -10,5 +10,6 @@ import Foundation
 struct User{
     var name: String
     var id: Int
+    var boardPref: String
     var prefrences:[Int] = []
 }
