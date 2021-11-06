@@ -10,13 +10,34 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     
-    VStack{
-    PaneraLogo()
-        
-    Welcome(username: "Jacob Woods")
-    Spacer()
-    }
+
+        TabView{
+            MainView()
+                .tabItem{Text("Main Page")}
+            accountView()
+                .tabItem{Text("Welcome")}
+        }
+        .tabViewStyle(PageTabViewStyle())
+
     
+    
+    
+}
+struct accountView:View{
+    var body: some View {
+        VStack{
+            Text("Welcome to account view")
+        }
+    }
+}
+struct MainView: View{
+    var body: some View{
+        VStack{
+        PaneraLogo()
+        Welcome(username: "Jacob")
+        QR_Block()
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

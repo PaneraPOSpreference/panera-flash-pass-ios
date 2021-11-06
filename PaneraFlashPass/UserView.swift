@@ -24,8 +24,14 @@ struct PaneraText: View{
 struct Welcome:View{
     var username: String
     var body: some View{
-        Text("Hello, \(username)")
-            .font(Font.custom("roboto-medium", size: 30))
+        Text("Hello, \(username)!")
+            .font(Font.custom("roboto-medium", size: 25))
+        Text("Please present your Panera Fast Pass to the cashier for a custom ordering experience")
+            .font(Font.custom("roboto-medium", size: 20))
+            .multilineTextAlignment(.center)
+            .foregroundColor(.secondary)
+            .padding(.bottom)
+            
     }
 }
 
@@ -39,6 +45,17 @@ struct PaneraLogo:View{
     }
 }
 
+struct QR_Block: View{
+    var body: some View{
+        ZStack{
+        Image("codeOfUser")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+
+        
+        }
+    }
+}
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
