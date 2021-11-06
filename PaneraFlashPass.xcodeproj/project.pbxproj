@@ -14,9 +14,22 @@
 		FD2C5501273616A40002522E /* PaneraFlashPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5500273616A40002522E /* PaneraFlashPassTests.swift */; };
 		FD2C550B273616A40002522E /* PaneraFlashPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */; };
 		FD2C550D273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */; };
-		FD2C551A2736178A0002522E /* panera-bread-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = FD2C55192736178A0002522E /* panera-bread-1.svg */; };
 		FD2C551C273618560002522E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C551B273618560002522E /* UserView.swift */; };
 		FD2C5521273619050002522E /* panera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C551F273619050002522E /* panera.ttf */; };
+		FD2C55242736249A0002522E /* QR_Sample.svg in Resources */ = {isa = PBXBuildFile; fileRef = FD2C55232736249A0002522E /* QR_Sample.svg */; };
+		FD2C553E273627740002522E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5531273627740002522E /* Roboto-Medium.ttf */; };
+		FD2C553F273627740002522E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5532273627740002522E /* Roboto-Light.ttf */; };
+		FD2C5540273627740002522E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5533273627740002522E /* Roboto-Regular.ttf */; };
+		FD2C5541273627740002522E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5534273627740002522E /* Roboto-MediumItalic.ttf */; };
+		FD2C5542273627740002522E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5535273627740002522E /* Roboto-ThinItalic.ttf */; };
+		FD2C5543273627740002522E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5536273627740002522E /* Roboto-BoldItalic.ttf */; };
+		FD2C5544273627740002522E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5537273627740002522E /* Roboto-LightItalic.ttf */; };
+		FD2C5545273627740002522E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5538273627740002522E /* Roboto-Italic.ttf */; };
+		FD2C5546273627740002522E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5539273627740002522E /* LICENSE.txt */; };
+		FD2C5547273627740002522E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C553A273627740002522E /* Roboto-BlackItalic.ttf */; };
+		FD2C5548273627740002522E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C553B273627740002522E /* Roboto-Bold.ttf */; };
+		FD2C5549273627740002522E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C553C273627740002522E /* Roboto-Thin.ttf */; };
+		FD2C554A273627740002522E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C553D273627740002522E /* Roboto-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +60,23 @@
 		FD2C5506273616A40002522E /* PaneraFlashPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaneraFlashPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITests.swift; sourceTree = "<group>"; };
 		FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FD2C55192736178A0002522E /* panera-bread-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "panera-bread-1.svg"; sourceTree = "<group>"; };
 		FD2C551B273618560002522E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		FD2C551F273619050002522E /* panera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = panera.ttf; sourceTree = "<group>"; };
+		FD2C552227361EBD0002522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD2C55232736249A0002522E /* QR_Sample.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QR_Sample.svg; sourceTree = "<group>"; };
+		FD2C5531273627740002522E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		FD2C5532273627740002522E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		FD2C5533273627740002522E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FD2C5534273627740002522E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FD2C5535273627740002522E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FD2C5536273627740002522E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FD2C5537273627740002522E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		FD2C5538273627740002522E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		FD2C5539273627740002522E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		FD2C553A273627740002522E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FD2C553B273627740002522E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FD2C553C273627740002522E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		FD2C553D273627740002522E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +127,11 @@
 		FD2C54EE273616A30002522E /* PaneraFlashPass */ = {
 			isa = PBXGroup;
 			children = (
+				FD2C552227361EBD0002522E /* Info.plist */,
 				FD2C54EF273616A30002522E /* PaneraFlashPassApp.swift */,
 				FD2C54F1273616A30002522E /* ContentView.swift */,
 				FD2C551B273618560002522E /* UserView.swift */,
+				FD2C5530273627740002522E /* Roboto */,
 				FD2C551D273619050002522E /* panera */,
 				FD2C54F3273616A40002522E /* Assets.xcassets */,
 				FD2C54F5273616A40002522E /* Preview Content */,
@@ -131,7 +160,7 @@
 			children = (
 				FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */,
 				FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */,
-				FD2C55192736178A0002522E /* panera-bread-1.svg */,
+				FD2C5525273624AC0002522E /* Assets */,
 			);
 			path = PaneraFlashPassUITests;
 			sourceTree = "<group>";
@@ -142,6 +171,34 @@
 				FD2C551F273619050002522E /* panera.ttf */,
 			);
 			path = panera;
+			sourceTree = "<group>";
+		};
+		FD2C5525273624AC0002522E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C55232736249A0002522E /* QR_Sample.svg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FD2C5530273627740002522E /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C5531273627740002522E /* Roboto-Medium.ttf */,
+				FD2C5532273627740002522E /* Roboto-Light.ttf */,
+				FD2C5533273627740002522E /* Roboto-Regular.ttf */,
+				FD2C5534273627740002522E /* Roboto-MediumItalic.ttf */,
+				FD2C5535273627740002522E /* Roboto-ThinItalic.ttf */,
+				FD2C5536273627740002522E /* Roboto-BoldItalic.ttf */,
+				FD2C5537273627740002522E /* Roboto-LightItalic.ttf */,
+				FD2C5538273627740002522E /* Roboto-Italic.ttf */,
+				FD2C5539273627740002522E /* LICENSE.txt */,
+				FD2C553A273627740002522E /* Roboto-BlackItalic.ttf */,
+				FD2C553B273627740002522E /* Roboto-Bold.ttf */,
+				FD2C553C273627740002522E /* Roboto-Thin.ttf */,
+				FD2C553D273627740002522E /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,10 +305,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2C5548273627740002522E /* Roboto-Bold.ttf in Resources */,
+				FD2C5546273627740002522E /* LICENSE.txt in Resources */,
+				FD2C5543273627740002522E /* Roboto-BoldItalic.ttf in Resources */,
+				FD2C5540273627740002522E /* Roboto-Regular.ttf in Resources */,
+				FD2C5544273627740002522E /* Roboto-LightItalic.ttf in Resources */,
+				FD2C553E273627740002522E /* Roboto-Medium.ttf in Resources */,
 				FD2C5521273619050002522E /* panera.ttf in Resources */,
+				FD2C5547273627740002522E /* Roboto-BlackItalic.ttf in Resources */,
+				FD2C5549273627740002522E /* Roboto-Thin.ttf in Resources */,
+				FD2C553F273627740002522E /* Roboto-Light.ttf in Resources */,
+				FD2C5542273627740002522E /* Roboto-ThinItalic.ttf in Resources */,
+				FD2C554A273627740002522E /* Roboto-Black.ttf in Resources */,
+				FD2C5541273627740002522E /* Roboto-MediumItalic.ttf in Resources */,
 				FD2C54F7273616A40002522E /* Preview Assets.xcassets in Resources */,
+				FD2C5545273627740002522E /* Roboto-Italic.ttf in Resources */,
 				FD2C54F4273616A40002522E /* Assets.xcassets in Resources */,
-				FD2C551A2736178A0002522E /* panera-bread-1.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2C55242736249A0002522E /* QR_Sample.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +512,7 @@
 				DEVELOPMENT_TEAM = 4FDCB82NR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaneraFlashPass/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +543,7 @@
 				DEVELOPMENT_TEAM = 4FDCB82NR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaneraFlashPass/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
