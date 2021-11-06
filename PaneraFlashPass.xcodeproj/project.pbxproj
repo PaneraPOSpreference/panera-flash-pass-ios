@@ -134,9 +134,9 @@
 				FD2C5550273632590002522E /* userCode.png */,
 				FD2C54F1273616A30002522E /* ContentView.swift */,
 				FD2C551B273618560002522E /* UserView.swift */,
+				FD2C555227363FA10002522E /* userStruct.swift */,
 				FD2C554C27362A970002522E /* Fonts */,
 				FD2C54F3273616A40002522E /* Assets.xcassets */,
-				FD2C555227363FA10002522E /* userStruct.swift */,
 				FD2C54F5273616A40002522E /* Preview Content */,
 			);
 			path = PaneraFlashPass;

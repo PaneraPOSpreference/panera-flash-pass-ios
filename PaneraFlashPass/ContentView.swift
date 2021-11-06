@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     
-
+        let currentAccount = User(name: "Marcus", id: 12345, prefrences: [])
         TabView{
-            MainView()
+            MainView(user: currentAccount)
                 .tabItem{Text("Main Page")}
             accountView()
                 .tabItem{Text("Welcome")}
@@ -21,7 +21,7 @@ struct ContentView: View {
 
     
     
-    
+    }
 }
 struct accountView:View{
     var body: some View {
@@ -31,10 +31,11 @@ struct accountView:View{
     }
 }
 struct MainView: View{
+    var user: User
     var body: some View{
         VStack{
         PaneraLogo()
-        Welcome(username: "Jacob")
+        Welcome(ourUser: user)
         QR_Block()
         }
     }
@@ -47,4 +48,4 @@ struct ContentView_Previews: PreviewProvider {
         
     }
 }
-}
+

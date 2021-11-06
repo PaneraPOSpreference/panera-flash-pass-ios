@@ -22,9 +22,9 @@ struct PaneraText: View{
           
     }
 struct Welcome:View{
-    var username: String
+    var ourUser: User
     var body: some View{
-        Text("Hello, \(username)!")
+        Text("Hello, \(ourUser.name)!")
             .font(Font.custom("roboto-medium", size: 25))
         Text("Please present your Panera Fast Pass to the cashier for a custom ordering experience")
             .font(Font.custom("roboto-medium", size: 20))
@@ -34,10 +34,22 @@ struct Welcome:View{
             
     }
 }
-
+struct accountManagement{
+    var ourUser: User
+    var body: some View{
+        VStack{
+            PaneraLogo()
+            Text("Name: \(ourUser.name)")
+            Text("Name: \(ourUser.name)")
+        }
+    }
+}
 struct PaneraLogo:View{
     var body: some View{
         VStack{
+        Image(systemName: "person.crop.circle")
+                    .font(.system(size: 56.0))
+                    .foregroundColor(Color("PaneraGreen"))
         PaneraText(input: "Panera", textSize: 40)
         PaneraText(input: "Flash Pass", textSize: 30)
                 .foregroundColor(Color("PaneraGreen"))

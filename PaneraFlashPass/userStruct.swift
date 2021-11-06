@@ -9,4 +9,6 @@ import Foundation
 
 struct User{
     var name: String
+    var id: Int
+    var prefrences:[Int] = []
 }
