@@ -14,6 +14,9 @@
 		FD2C5501273616A40002522E /* PaneraFlashPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5500273616A40002522E /* PaneraFlashPassTests.swift */; };
 		FD2C550B273616A40002522E /* PaneraFlashPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */; };
 		FD2C550D273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */; };
+		FD2C551A2736178A0002522E /* panera-bread-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = FD2C55192736178A0002522E /* panera-bread-1.svg */; };
+		FD2C551C273618560002522E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C551B273618560002522E /* UserView.swift */; };
+		FD2C5521273619050002522E /* panera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C551F273619050002522E /* panera.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		FD2C5506273616A40002522E /* PaneraFlashPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaneraFlashPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITests.swift; sourceTree = "<group>"; };
 		FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneraFlashPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD2C55192736178A0002522E /* panera-bread-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "panera-bread-1.svg"; sourceTree = "<group>"; };
+		FD2C551B273618560002522E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		FD2C551F273619050002522E /* panera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = panera.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 			children = (
 				FD2C54EF273616A30002522E /* PaneraFlashPassApp.swift */,
 				FD2C54F1273616A30002522E /* ContentView.swift */,
+				FD2C551B273618560002522E /* UserView.swift */,
+				FD2C551D273619050002522E /* panera */,
 				FD2C54F3273616A40002522E /* Assets.xcassets */,
 				FD2C54F5273616A40002522E /* Preview Content */,
 			);
@@ -123,8 +131,17 @@
 			children = (
 				FD2C550A273616A40002522E /* PaneraFlashPassUITests.swift */,
 				FD2C550C273616A40002522E /* PaneraFlashPassUITestsLaunchTests.swift */,
+				FD2C55192736178A0002522E /* panera-bread-1.svg */,
 			);
 			path = PaneraFlashPassUITests;
+			sourceTree = "<group>";
+		};
+		FD2C551D273619050002522E /* panera */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C551F273619050002522E /* panera.ttf */,
+			);
+			path = panera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2C5521273619050002522E /* panera.ttf in Resources */,
 				FD2C54F7273616A40002522E /* Preview Assets.xcassets in Resources */,
 				FD2C54F4273616A40002522E /* Assets.xcassets in Resources */,
+				FD2C551A2736178A0002522E /* panera-bread-1.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2C54F2273616A30002522E /* ContentView.swift in Sources */,
+				FD2C551C273618560002522E /* UserView.swift in Sources */,
 				FD2C54F0273616A30002522E /* PaneraFlashPassApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PaneraFlashPass/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FDCB82NR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PaneraFlashPass/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FDCB82NR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
