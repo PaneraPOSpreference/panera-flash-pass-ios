@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     
-        let currentAccount = User(name: "Marcus", id: 12345, boardPref:"Dark Mode", prefrences: [])
+        let currentAccount = User(name: "John", id: 12345, favs: [], history: [], boardPref: "Dark")
         TabView{
             MainView(user: currentAccount)
                 .tabItem{Text("Main Page")}
@@ -22,7 +22,8 @@ struct ContentView: View {
     
     
     }
-}
+    }   
+
 
 struct MainView: View{
     var user: User

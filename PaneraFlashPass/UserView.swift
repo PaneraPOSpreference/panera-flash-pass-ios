@@ -26,7 +26,7 @@ struct Welcome:View{
     var body: some View{
         Text("Hello, \(ourUser.name)!")
             .font(Font.custom("roboto-medium", size: 25))
-        Text("Please present your Panera Fast Pass to the cashier for a custom ordering experience")
+        Text("Please present your Panera Bread Pass the cashier for a custom ordering experience")
             .font(Font.custom("roboto-medium", size: 20))
             .multilineTextAlignment(.center)
             .foregroundColor(.secondary)
@@ -41,10 +41,13 @@ struct accountManagement:View{
             PaneraLogo()
             Text("Name: \(ourUser.name)")
                 .font(Font.custom("roboto-medium", size: 20))
-            Text("ID: \(ourUser.id)")
+                .padding(.bottom,20)
+            Text("ID: \n \(ourUser.id)")
                 .font(Font.custom("roboto-medium", size: 20))
+                .padding(.bottom,20)
             Text("Board Preference: \(ourUser.boardPref)")
                 .font(Font.custom("roboto-medium", size: 20))
+                .padding(.bottom,20)
         }
     }
 }
@@ -55,7 +58,7 @@ struct PaneraLogo:View{
                     .font(.system(size: 56.0))
                     .foregroundColor(Color("PaneraGreen"))
         PaneraText(input: "Panera", textSize: 40)
-        PaneraText(input: "Flash Pass", textSize: 30)
+        PaneraText(input: "Bread Pass", textSize: 30)
                 .foregroundColor(Color("PaneraGreen"))
         }
     }

@@ -31,6 +31,7 @@
 		FD2C554A273627740002522E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2C553D273627740002522E /* Roboto-Black.ttf */; };
 		FD2C5551273632590002522E /* userCode.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5550273632590002522E /* userCode.png */; };
 		FD2C555327363FA10002522E /* userStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C555227363FA10002522E /* userStruct.swift */; };
+		FD34569C2737036D00BF2270 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = FD34569B2737036D00BF2270 /* example.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		FD2C553D273627740002522E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		FD2C5550273632590002522E /* userCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = userCode.png; path = ../../userCode.png; sourceTree = "<group>"; };
 		FD2C555227363FA10002522E /* userStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userStruct.swift; sourceTree = "<group>"; };
+		FD34569B2737036D00BF2270 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				FD2C54F1273616A30002522E /* ContentView.swift */,
 				FD2C551B273618560002522E /* UserView.swift */,
 				FD2C555227363FA10002522E /* userStruct.swift */,
+				FD34569A2737036D00BF2270 /* PANERA_JSON */,
 				FD2C554C27362A970002522E /* Fonts */,
 				FD2C54F3273616A40002522E /* Assets.xcassets */,
 				FD2C54F5273616A40002522E /* Preview Content */,
@@ -210,6 +213,14 @@
 				FD2C551D273619050002522E /* panera */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FD34569A2737036D00BF2270 /* PANERA_JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FD34569B2737036D00BF2270 /* example.json */,
+			);
+			path = PANERA_JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 				FD2C5544273627740002522E /* Roboto-LightItalic.ttf in Resources */,
 				FD2C553E273627740002522E /* Roboto-Medium.ttf in Resources */,
 				FD2C5521273619050002522E /* panera.ttf in Resources */,
+				FD34569C2737036D00BF2270 /* example.json in Resources */,
 				FD2C5547273627740002522E /* Roboto-BlackItalic.ttf in Resources */,
 				FD2C5549273627740002522E /* Roboto-Thin.ttf in Resources */,
 				FD2C553F273627740002522E /* Roboto-Light.ttf in Resources */,
