@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "bagel.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "bagel-1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "bagel-2.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

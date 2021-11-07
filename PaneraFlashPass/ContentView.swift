@@ -38,7 +38,7 @@ struct ContentView: View {
         //make the request
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let body: [String: AnyHashable] = [
-            "userId" : "HHGXWBTYFL",
+            "userId" : "DSFAFDF",
             "_from": "app"
             
         ]
@@ -51,8 +51,12 @@ struct ContentView: View {
             do{
                 let response = try JSONDecoder().decode(UserInfo.self, from: data)
                 print("SUCCESS: \(String(describing: response.data.first?.id ?? "None" )) " )
-                
+                if (String(describing: response.data.first?.name ?? "None" ) == ""){
+                    currentAccount.self.name = "User"
+              }
+              else {
                 currentAccount.self.name = String(describing: response.data.first?.name ?? "None" )
+               }
                 currentAccount.self.id = String(describing: response.data.first?.id ?? "None" )
                 
             }

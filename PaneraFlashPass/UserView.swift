@@ -20,7 +20,7 @@ struct PaneraText: View{
     var body: some View{
         Text(input)
         .font(Font.custom("panera", size: CGFloat(textSize)))    }
-          
+        
     }
 struct Welcome:View{
     var ourUser: User
@@ -59,6 +59,7 @@ struct NumberEntry: View {
     @State var justOrdered: String = "Menu Item"
     @State var justPriced: String = "$ --.--"
     @State var numberArray: [String] = []
+    
     var body: some View {
         VStack{
         PaneraLogo()
@@ -67,6 +68,7 @@ struct NumberEntry: View {
                 .multilineTextAlignment(.center)
                 .font(Font.custom("roboto-medium", size: 20))
                 .padding(.bottom,20)
+       
         Text(justOrdered)
                 .multilineTextAlignment(.center)
                 .font(Font.custom("roboto-medium", size: 20))
@@ -103,6 +105,9 @@ struct NumberEntry: View {
 
         }
     }
+
+    
+    
     func sendOrder(){
         guard let url = URL(string: "https://breadpass.vercel.app/api/user/orders/add") else{
             return
@@ -113,7 +118,7 @@ struct NumberEntry: View {
         //make the request
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let body: [String: AnyHashable] = [
-            "userId" : "HHGXWBTYFL",
+            "userId" : "DSFAFDF", //dsfaafdf
             "itemId": self.currentNumber
             
         ]
@@ -136,7 +141,10 @@ struct NumberEntry: View {
         }
 
         task.resume()
+        
+        
     }
+    
     func sendCart(){
         guard let url = URL(string: "https://breadpass.vercel.app/api/user/orders") else{
             return
@@ -147,7 +155,7 @@ struct NumberEntry: View {
         //make the request
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let body: [String: AnyHashable] = [
-            "userId" : "GAKG"
+            "userId" : "DSFAFDF"
             
         ]
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
@@ -191,7 +199,7 @@ struct PaneraLogo:View{
 struct QR_Block: View{
     var body: some View{
         ZStack{
-        Image("userCode1")
+        Image("ImageCodeNew")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
 
