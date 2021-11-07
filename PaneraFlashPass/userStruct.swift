@@ -41,3 +41,6 @@ struct orderInfo:Codable{
     let data:[DataInfo]
     
 }
+struct finishedInfo:Codable{
+    let message: String
+}

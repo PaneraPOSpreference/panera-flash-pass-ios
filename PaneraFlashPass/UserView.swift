@@ -138,7 +138,7 @@ struct NumberEntry: View {
         task.resume()
     }
     func sendCart(){
-        guard let url = URL(string: "https://breadpass.vercel.app/api/user/orders/add") else{
+        guard let url = URL(string: "https://breadpass.vercel.app/api/user/orders") else{
             return
         }
         var request = URLRequest(url: url)
@@ -157,8 +157,9 @@ struct NumberEntry: View {
                 return
             }
             do{
-                let response = try JSONDecoder().decode(UserInfo.self, from: data)
+                let response = try JSONDecoder().decode(finishedInfo.self, from: data)
                 print("SUCCESS: \(response) " )
+                self.justOrdered = "Thank you for ordering!"
                 
                 
             }
