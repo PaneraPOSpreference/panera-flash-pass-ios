@@ -137,6 +137,7 @@
 				FD2C54F1273616A30002522E /* ContentView.swift */,
 				FD2C551B273618560002522E /* UserView.swift */,
 				FD2C555227363FA10002522E /* userStruct.swift */,
+				FD34569D27373CB400BF2270 /* New Group */,
 				FD34569A2737036D00BF2270 /* PANERA_JSON */,
 				FD2C554C27362A970002522E /* Fonts */,
 				FD2C54F3273616A40002522E /* Assets.xcassets */,
@@ -221,6 +222,13 @@
 				FD34569B2737036D00BF2270 /* example.json */,
 			);
 			path = PANERA_JSON;
+			sourceTree = "<group>";
+		};
+		FD34569D27373CB400BF2270 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
